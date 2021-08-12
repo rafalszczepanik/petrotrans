@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/siteColor"
+    tools:context=".Login">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@color/toolbarColor">
+
+        <TextView
+            android:id="@+id/page_title"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/page_title"
+            android:lineSpacingExtra="2sp"
+            android:translationY="-0.28sp"
+            android:gravity="top"
+            />
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout
+
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/email_login_layout"
+        android:background="@color/labelColor"
+
+
+        >
+        <EditText
+            android:id="@+id/email_login_input_text"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textColor="@android:color/white"
+            android:textCursorDrawable="@drawable/color_cursor"
+
+           >
+        </EditText>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="45dp"
+            android:textColor="@color/textLabelColor"
+            android:text="@string/e_mail"
+            android:layout_marginStart="20dp"
+            android:textStyle="italic"
+            >
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/password_login_layout"
+        android:background="@color/labelColor"
+
+
+        >
+        <EditText
+            android:id="@+id/password_login_input_text"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textColor="@android:color/white"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:drawableEnd="@android:drawable/ic_lock_lock"
+            >
+
+        </EditText>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="45dp"
+            android:textColor="@color/textLabelColor"
+            android:text="@string/password"
+            android:layout_marginStart="20dp"
+            android:textStyle="italic"
+
+            >
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+    
+    
+    <RelativeLayout
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:background="@color/labelColor">
+
+        </Switch>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:text="@string/zapami_taj_mnie"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"
+
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_Zaloguj"
+        style="@android:style/Widget.Material.Light.Button.Toggle"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="350dp"
+
+        android:layout_marginEnd="139dp"
+        android:accessibilityLiveRegion="assertive"
+        android:background="#F21832"
+        android:text="@string/zaloguj"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/white" />
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="30dp">
+
+        <Button
+            android:id="@+id/btn_ZalogujFace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3b5998"
+            android:text="ZALOGUJ ZA POMOCĄ FACEBOOKA"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:drawableStart="@mipmap/face_icon"
+
+
+
+            >
+
+
+        </Button>
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_ZalogujGoogle"
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="600dp"
+        android:background="@android:color/white"
+        android:text="ZALOGUJ ZA POMOCĄ Google"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:drawableStart="@mipmap/google_icon"
+        >
+
+    </Button>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginStart="50dp">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="NIE MASZ JESZCZE KONTA ? "
+
+        android:textColor="@android:color/white"
+        android:layout_marginStart="60dp"
+       >
+
+    </TextView>
+        <TextView
+            android:id="@+id/registerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="ZAREJESTRUJ SIĘ ! "
+
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="60dp"
+            android:clickable="true"
+            >
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

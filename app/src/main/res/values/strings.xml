@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PETROTRANS </string>
+    <string name="e_mail">email</string>
+    <string name="password">hasło</string>
+    <string name="zapami_taj_mnie">ZAPAMIĘTAJ MNIE</string>
+    <string name="zaloguj">ZALOGUJ</string>
+    <string name="powt_rz_has_o">powtórz hasło</string>
+    <string name="zarejestruj">ZAREJESTRUJ</string>
+    <string name="title_activity_main_site">MainSite</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_wyloguj">Wyloguj</string>
+    <string name="action_twoj_profil">Twoj profil</string>
+    <string name="strona_g_wna">Strona Główna</string>
+    <string name="promocje">Promocje</string>
+    <string name="nowo_ci">Nowości</string>
+    <string name="tw_j_profil">Twój Profil</string>
+    <string name="pomoc">Pomoc</string>
+    <string name="regulamin">Regulamin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

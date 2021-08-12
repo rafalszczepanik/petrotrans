@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="siteColor">#192939</color>
+    <color name="toolbarColor">#000000</color>
+    <color name="labelColor">#192939</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="textLabelColor">#363636</color>
+
+</resources>
